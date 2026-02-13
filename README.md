@@ -1,51 +1,185 @@
-# 🤖 Jarvis - Your Personal Desktop Voice Assistant
+🧠 SYRA – AI Powered Desktop Voice Assistant
+SYRA is an intelligent, AI-powered desktop voice assistant designed to simplify human–computer interaction using natural language voice commands. It combines Large Language Models (LLMs), automation tools, and system-level integrations to perform real-time actions on a computer.
 
-Jarvis is a smart and customizable desktop assistant built using **Python**, **Eel**, **HTML/CSS**, and **JavaScript**. It helps you control your PC and mobile with simple **voice** or **typed commands**.
+🚀 Overview
+SYRA transforms a traditional desktop system into a smart assistant capable of:
 
-From launching apps to making calls and chatting, Jarvis brings AI and automation to your fingertips.
+Understanding natural language commands
 
----
+Executing system-level operations
 
-## ✨ Features
+Performing web searches and API calls
 
-- 🎙️ Control via **Voice & Typing**
-- 📞 Make Phone Calls via Mobile (Android)
-- 📲 Pickup & Disconnect Calls
-- 💻 Launch Desktop Applications
-- 🌐 Open Your Favorite URLs
-- 📔 Built-in Phone Book
-- 🙋 Store and Use Your Personal Details
-- 🤖 Chat Interaction
-- 🎵 Play Videos/Songs on YouTube & Spotify
-- 🌤️ Check Weather Updates
+Managing tasks and reminders
 
----
+Sending messages and controlling applications
 
-## 🖼️ Demo
+Authenticating users using face recognition
 
-### 🔐 Face Authentication  
-![Face Authentication](https://github.com/digambar2002/image-hosting/blob/main/How_to_make_Jarvis_in_Python__voice_assistant__jarvis_iron_m.gif)
+It bridges the gap between artificial intelligence and real-world desktop automation.
 
-### 🎤 Speech to Text Recognition  
-![Speech to Text](https://github.com/digambar2002/image-hosting/blob/main/e.gif)
+🎯 Problem Statement
+Modern computer systems still rely heavily on manual input such as typing and clicking. This limits productivity, especially during multitasking.
 
-### 🎵 Play Music on Spotify  
-![Play Music in Spotify](https://github.com/digambar2002/image-hosting/blob/main/2.gif)
+Existing assistants:
 
----
+Have limited system-level control
 
-## 🛠️ Tech Stack
+Lack customization
 
-- **Python** – Core logic
-- **Eel** – Web-Python integration
-- **HTML/CSS/JS** – Interactive frontend
+Do not integrate deeply with desktop environments
 
----
+SYRA solves this by providing intelligent, voice-driven automation with AI decision-making.
 
-## ⚙️ Installation
+✨ Key Features
+🔊 Voice Interaction
+Speech-to-text command recognition
 
-### 1. Clone the Repository
+Text-to-speech intelligent responses
 
-```bash
-git clone https://github.com/yourusername/jarvis-python-assistant.git
-cd jarvis-python-assistant
+Continuous command listening
+
+🤖 AI Agent-Based Decision Making
+Uses LLM (Gemini) for natural language understanding
+
+Automatically selects appropriate tools
+
+Generates human-like summarized responses
+
+🛠 System Automation
+Open applications
+
+Control brightness and volume
+
+Take screenshots
+
+Fetch system statistics (CPU, RAM, battery)
+
+🌐 Web & API Integration
+Google search
+
+Wikipedia search
+
+YouTube search & playback
+
+Weather updates
+
+Stock market data
+
+📱 Communication
+WhatsApp messaging
+
+SMS and calling via ADB
+
+Email automation
+
+📝 Task Management
+Add tasks
+
+View tasks by date
+
+Complete or delete tasks
+
+👁 Face Recognition Module
+Face dataset generation
+
+Face embedding creation using FaceNet
+
+Real-time authentication using cosine similarity
+
+Optional CNN-based classifier
+
+🏗 System Architecture
+SYRA follows a layered architecture:
+
+Voice Input Layer
+
+SpeechRecognition for capturing user commands
+
+AI Agent Layer
+
+Gemini LLM for intent detection
+
+LangChain + LangGraph for agent workflow
+
+Tool selection and execution
+
+Tool Execution Layer
+
+Python-based automation functions
+
+System controls and API integrations
+
+Database Layer
+
+SQLite for contacts, commands, and user data
+
+Response Layer
+
+Output summarization
+
+Voice response via pyttsx3
+
+Computer Vision Layer (Optional)
+
+OpenCV + FaceNet for authentication
+
+🧩 Core Technologies
+Python – Core implementation
+
+Gemini (LLM) – Natural language understanding
+
+LangChain – Tool integration framework
+
+LangGraph – Agent workflow orchestration
+
+SpeechRecognition – Voice input
+
+pyttsx3 – Voice output
+
+OpenCV + FaceNet + MTCNN – Face recognition
+
+SQLite – Local database
+
+External APIs – Weather, Google, YouTube, Stock
+
+⚙️ How It Works
+User gives a voice command.
+
+Speech is converted to text.
+
+The AI Agent analyzes intent using Gemini.
+
+LangGraph selects the appropriate tool.
+
+Tool executes the requested action.
+
+Result is summarized.
+
+Assistant responds via voice output.
+
+📊 Results & Achievements
+40+ integrated automation tools
+
+Real-time system control
+
+API-based information retrieval
+
+Face authentication system implemented
+
+Modular and scalable architecture
+
+🔮 Future Scope
+Mobile and IoT integration
+
+Voice biometric authentication
+
+Emotion detection
+
+Offline LLM deployment
+
+Personalized user profiles
+
+Cloud-based synchronization
+
+
